@@ -1,0 +1,65 @@
+<DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<fieldset style="background-color:plum">
+			<legend align="center" style="color:forestgreen">Regestration form</legend>
+			<form>
+				<label for="name">Your name:</label><br>
+				<input type="text" id="name" name="name" placeholder="ALL CAPITAL" autofocus>
+				<hr>
+				<label for="email">Your Email:</label><br>
+				<input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+				<hr>
+				<label for="phone">Phone Number:</label><br>
+				<input type="tel" id="phone" name="phone" placeholder="Valid Bangladeshi number">
+				<hr>
+				<lebel>Select your gender:</lebel><br>
+				<input type="radio" id="male" name="Gender" value="Male">
+				<label for="male">Male</label>
+				<br>
+				<input type="radio" id="female" name="Gender" value="Female">
+				<label for="female">Female</label>
+				<hr>
+				<p>Select your hobby:</p>
+				
+				<input type="radio" id="playing game" name="hobby" value="Playing game">
+				<label for="playing game">Playing game</label>
+				<br>
+				<input type="radio" id="talking with sweet girls" name="hobby" value="Talking with sweet girls">
+				<label for="talking with sweet girls">talking with sweet girls</label><br>
+				<input type="radio" id="others" name="hobby" value="Others">
+				<label for="others">Others</label>
+				<hr>
+				<p>Which Web language have you learned</p>
+				<input type="checkbox" id="html" name="knowed_language" value="HTML">
+				<label for="html">HTML</label>
+				<br>
+				<input type="checkbox" id="css" name="knowed_language" value="CSS">
+				<label for="css">CSS</label>
+				<br>
+				<input type="checkbox" id="javascript" name="knowed_language" value="JavaScript">
+				<label for="javascript">JavaScript</label>
+				<br>
+				<hr>
+				<input type="file" name="document" accept="image/jpeg" multiple><hr>
+				<!--accept is used for mime/media type which means which type if file can be upload "image/jpeg" is for jpeg type image/* is used for all type of image; multiple is for multiple file upload-->
+				
+				<textarea id="massage" name="massage" rows="4" cols="50">Leave a comment here...</textarea>
+				<hr>
+				<select name="course_name">
+					<option value="">Select your course</option>
+					<option value="Web">Web design and development</option>
+					<option value="Graphic">Graphics design</option>
+					<option value="DM">Digital marketing</option>
+				</select>
+				<hr>
+			
+				<input type="submit" value="send">
+				<input type="reset" value="clear all">
+				<!--similar thing can done by <button type="reset">clear all</button>-->
+				
+			</form>
+		</fieldset>
+	</body>
+</html>
