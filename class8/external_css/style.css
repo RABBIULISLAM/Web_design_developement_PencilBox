@@ -1,0 +1,41 @@
+			body{
+				margin: 0px;
+				padding: 0px;
+				background-color: #c2c2c2;
+			}
+			.hd-3{
+				display: inline;
+				margin: 0px;
+				padding: 0px;
+				color: green;
+				text-align: right;
+				font-size: 40px
+			}
+			
+			.hd-1{
+				display: inline;
+				margin: 0px;
+				padding: 0px;
+				color: red;
+				text-align: left;
+				font-size: 40px
+				float: left;
+			}
+			.hd-2{
+				display: inline;
+				margin: 0px;
+				padding: 0px;
+				color: blue;
+				text-align: center;
+				font-size: 40px
+			}
+			
+			#hi-1{
+				display: inline;
+				margin: 0px;
+				padding: 0px;
+				color: black;
+				text-align: right;
+				font-size: 40px
+				float: right;
+			}
