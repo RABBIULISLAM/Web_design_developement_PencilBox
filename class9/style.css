@@ -1,0 +1,20 @@
+body{
+	background-color:#1E1F36;  /*this is comment*/
+	width:px
+}
+h1{
+	color:rgb(9, 183, 191)
+}
+section{
+	width:1000px;
+	height:900px;
+	/* background-image: url(../class3/images/flower.jpg);
+	background-repeat: no-repeat; 
+	background-attachment:fixed;
+	*/
+	background: url(../class3/images/flower.jpg) no-repeat center fixed;
+	background-size: 20% 20%;
+	border: 1px solid red;
+	
+	
+}
