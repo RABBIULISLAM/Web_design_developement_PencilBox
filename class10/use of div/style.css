@@ -1,0 +1,33 @@
+.header-section{
+	height: 200px;
+	width: 100%;
+	background: red;
+}
+
+.nav-section{
+	height: 40px;
+	width: 100%;
+	background: blue;
+}
+.main-section{
+	height: 600px;
+	width: 100%;
+	background: green;
+}
+article{
+	height:100%;
+	width: 70%;
+	background: red;
+	float: left;
+}
+aside{
+	height:100%;
+	width: 30%;
+	background: purple;
+	float: left;
+}
+.footer-section{
+	height: 70px;
+	width: 100%;
+	background: yellow;
+}

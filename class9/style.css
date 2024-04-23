@@ -1,6 +1,5 @@
 body{
 	background-color:#1E1F36;  /*this is comment*/
-	width:px
 }
 h1{
 	color:rgb(9, 183, 191)
@@ -12,9 +11,7 @@ section{
 	background-repeat: no-repeat; 
 	background-attachment:fixed;
 	*/
-	background: url(../class3/images/flower.jpg) no-repeat center fixed;
+	background: url(../class3/images/flower.jpg) repeat center fixed;
 	background-size: 20% 20%;
-	border: 1px solid red;
-	
-	
+	border: 5px solid red;
 }
