@@ -1,0 +1,132 @@
+/* Universal area start */
+@font-face{	/* for using downloaded font */
+	src: url(font/Sofia-Regular.otf);
+	font-family: sofia; /* name of the downloaded font */
+}
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+*{
+	box-sizing: border-box; /* to remove borders adding together */
+}
+/* Universal area end */
+
+/* common style start */
+.container{
+	width: 90%;
+	margin: auto;
+	border: 1px solid red;
+}
+body{
+	margin: 0px;
+}
+/* common style end */
+
+/* header section start */
+header{
+	height: 200px;	
+}
+.logo{
+	height: 100%;
+	width: 20%;
+	border: 1px solid green;
+	float: left;
+}
+.banner{
+	height: 100%;
+	width: 80%;
+	border: 1px solid black;
+	float: left;
+	/*background: url(../../class3/images/pencilbox_banner.jpeg);
+	background-size: cover;*/
+}
+.logo img{
+	width:100%;
+	height: 100%;
+	margin-top: 0px;
+	border: 1px solid red;
+} 
+.banner img{
+	width: 100%;
+	height: 63%;
+	border: 1px solid red;
+}
+h1{
+	width: 100%;
+	border: 1px solid red;
+	margin: 0px;
+	text-align: center;
+}
+/* header section end */
+
+/* nav section start */
+nav{
+	height: 40px;
+	background-color: #3D5E87;
+	text-align: center;
+}
+.link_property{
+	color: white;
+	border:1px solid yellow;
+	margin: 10px 40px;
+	display: inline-block;
+}
+/* nav section end */
+
+/* main section start */
+main{
+	height: 600px;
+}
+/* main section end */
+
+/* contant area start */
+section{
+	height:100%;
+	width: 70%;
+	border:1px solid yellow;
+	
+	float: left;
+}
+article{
+	height:50%;
+	width: 100%;
+	border:1px solid yellow;
+	padding: 10px;
+	overflow: auto;
+}
+article p{
+	color: red;
+	text-align: justytify;
+	text-decoration: dotted;
+	text-transform: Uppercase;
+	text-indent: 100px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 1.2;
+	font-size: 17px;
+	font-style: italic;
+	font-weight: 400;
+	font-family: 'Brush Script MT', 'Lucida Handwriting', Cursive;  /* using the fallback font from local */
+	
+}
+/* contant area end */
+
+/* aside area start */
+aside{
+	height:100%;
+	width: 30%;
+	border: 1px solid green;
+	float: left;
+	font-family: sofia; /* using the downloaded font */
+}
+aside p{
+	
+	font-family: "Galada", cursive; /* using the google online font, link is added to css*/
+}
+/* aside area end */
+
+/* footer area start */
+footer{
+	height: 70px;
+	font-family: "Dancing Script", cursive; /* using the google online font, link is added to html*/
+}
+/* footer area end */
