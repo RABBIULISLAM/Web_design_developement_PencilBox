@@ -1,0 +1,150 @@
+/* common section start */
+*{
+    font-family: "Open Sans", Arial, sans-serif;;
+}
+.container{
+    min-width: 400px;
+    max-width: 1120px;
+}
+/* common section end */
+
+/* header section start */
+@media (min-width: 380px) and (max-width: 767px){
+    #header-section{
+        min-width: 380px;
+    }
+    #header-section .logo img{
+        width: 50%;
+    }
+    #header-section .carousel-item img{
+        min-height: 280px;
+    }
+}
+/* header section end */
+
+/* navbar-section start */
+#navbar-section{
+    border-bottom: 1px solid rgba(0.91, 0.91, 0.91, 0.1);
+}
+#navbar-section .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+#navbar-section .dropdown-toggle::after {
+    display: none;
+}
+#navbar-section .navbar-nav .nav-link{
+    text-align: center;
+    padding: 13px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #444444;
+    border-right: 1px solid rgba(0.91, 0.91, 0.91, 0.1);
+}
+#navbar-section .navbar-nav .nav-item:first-child .nav-link{
+    border-left: 1px solid rgba(0.91, 0.91, 0.91, 0.1);
+}
+#navbar-section .navbar-nav .nav-link:hover{
+    color: #fff;
+    background: #344807;
+}
+#navbar-section .navbar-nav .nav-link.active{
+    color: #fff;
+    background: #344807;
+}
+#navbar-section .navbar-nav .nav-link i{
+    padding-bottom: 5px;
+}
+#navbar-section.navbar {
+--bs-navbar-padding-y: 0px;
+}
+.navbar-toggler {
+    width: 100%;
+}
+/* navbar-section end */
+
+/* about us section start */
+#about-section h1{
+    color: #444444; 
+    font-size: 27px;
+    font-weight: 600;
+}
+#about-section h1 span{
+    color: #ff0000; 
+}
+#about-section p{
+    color: #777; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+@media (min-width: 0px) and (max-width: 992px){
+    #about-section p{
+        text-align: justify;
+    }
+}
+/* about us section end */
+
+/* feature-section start */
+.feature-card{
+    background: #f6f6f6;
+    padding: 50px 0px;
+    text-align: center;
+    border: 1px solid lightgray;
+    transition: 0.2s linear;
+    cursor: pointer;
+    position: relative;
+    max-width: 300px;
+    margin: 0px auto;
+}
+.feature-card-icon{
+    background: url(../img/service-bg.png) no-repeat;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -15%;
+    left: 42%;
+}
+.feature-card-icon i{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 12%;
+    left: 11%;
+}
+.feature-card:hover{
+    background: #fff;
+}
+.feature-card h2{
+    color: #344807; 
+    font-size: 20px;
+    font-weight: 600;
+}
+.feature-card p{
+    color: #344807; 
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.feature-card ul{
+    color: #777; 
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.feature-card a{
+    color: #777; 
+    font-size: 14px;
+    font-weight: 300;
+    background: #e6e6e6;
+    padding: 0px 5px;
+    display: lnline-block;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+.feature-card a:hover{
+    color: #ff0000; 
+    font-size: 17px;
+    background: #fff;
+}
+/* feature-section end */
